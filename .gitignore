@@ -35,7 +35,6 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *.cover
-*.log
 .pytest_cache/
 .pytype/
 venv/
@@ -71,7 +70,6 @@ lerna-debug.log*
 .settings/
 *.sublime-project
 *.sublime-workspace
-.DS_Store
 Thumbs.db
 
 # Java
@@ -82,7 +80,6 @@ Thumbs.db
 *.ear
 target/
 .gradle/
-build/
 !gradle-wrapper.jar
 .gradletasknamecache
 
@@ -101,7 +98,6 @@ tmp/
 .Spotlight-V100
 .Trashes
 ehthumbs.db
-Thumbs.db
 Desktop.ini
 
 # Credentials and secrets
@@ -117,15 +113,10 @@ config/secrets.yml
 # Logs
 logs/
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
 
 # Testing
 .jest/
 coverage/
-*.cover
 .hypothesis/
 
 # Documentation build

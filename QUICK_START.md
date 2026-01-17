@@ -28,7 +28,7 @@ Choose based on your experience level:
 ### Beginner (Never used Git)
 👉 Read: **[UPLOAD_GUIDE.md](UPLOAD_GUIDE.md)**
 - Multiple methods explained (Git, GitHub Desktop, Web)
-- Step-by-step with screenshots references
+- Step-by-step instructions
 - Troubleshooting common issues
 
 ### Intermediate (Used Git before)
