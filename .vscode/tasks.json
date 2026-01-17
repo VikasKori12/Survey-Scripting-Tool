@@ -1,0 +1,31 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run FastAPI app",
+			"type": "shell",
+			"command": "\"C:/FastAPI Demo/Approach_v4/.venv/Scripts/python.exe\" -m uvicorn main:app --reload",
+			"isBackground": true,
+			"problemMatcher": [],
+			   "group": "build",
+			   "options": {
+				   "shell": {
+					   "executable": "cmd.exe"
+				   }
+			   }
+		},
+		{
+			"label": "Run FastAPI app",
+			"type": "shell",
+			"command": "\"C:/FastAPI Demo/Approach_v4/.venv/Scripts/python.exe\" -m uvicorn main:app --reload",
+			"isBackground": true,
+			"problemMatcher": [],
+			   "group": "build",
+			   "options": {
+				   "shell": {
+					   "executable": "cmd.exe"
+				   }
+			   }
+		}
+	]
+}
