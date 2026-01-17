@@ -24,7 +24,7 @@ async def convert_docx_to_json(file: UploadFile = File(...)):
     The JSON can then be downloaded and used for the next conversion step.
     """
     # Validate file type
-    if not file.filename.endswith('.docx'):
+    if not file.filename or not file.filename.endswith('.docx'):
         raise HTTPException(status_code=400, detail="Only .docx files are supported")
     
     # Generate unique filename

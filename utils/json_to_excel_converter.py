@@ -1,7 +1,6 @@
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment
 from typing import Dict, Any, List
-import json
 
 
 def convert_json_to_excel(json_data: Dict[str, Any], output_path: str) -> str:
@@ -89,7 +88,7 @@ def convert_json_to_excel(json_data: Dict[str, Any], output_path: str) -> str:
                 try:
                     if len(str(cell.value)) > max_length:
                         max_length = len(cell.value)
-                except:
+                except (TypeError, AttributeError):
                     pass
             adjusted_width = min(max_length + 2, 50)
             sheet.column_dimensions[column_letter].width = adjusted_width

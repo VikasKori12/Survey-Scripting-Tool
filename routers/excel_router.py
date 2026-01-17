@@ -24,7 +24,7 @@ async def convert_json_to_excel_endpoint(file: UploadFile = File(...)):
     an Excel file formatted for surveyCTO.
     """
     # Validate file type
-    if not file.filename.endswith('.json'):
+    if not file.filename or not file.filename.endswith('.json'):
         raise HTTPException(status_code=400, detail="Only .json files are supported")
     
     # Generate unique filename
