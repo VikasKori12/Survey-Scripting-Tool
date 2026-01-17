@@ -8,18 +8,24 @@ This tool helps convert questionnaire documents (.docx format) into surveyCTO-co
 
 ## 🚀 Quick Start
 
-### For Project Owners/Contributors
+### 📤 Want to Upload Your Project Files?
 
-If you want to upload your project files from your local system, please see [CONTRIBUTING.md](CONTRIBUTING.md) for detailed step-by-step instructions.
+**Start here:** [QUICK_START.md](QUICK_START.md) - Quick reference for uploading your project
 
 **Quick steps:**
-1. Clone this repository: `git clone https://github.com/VikasKori12/Survey-Scripting-Tool.git`
-2. Copy your project files to the cloned directory
-3. Add files: `git add .`
-4. Commit: `git commit -m "Add project files"`
-5. Push: `git push origin main`
+```bash
+git clone https://github.com/VikasKori12/Survey-Scripting-Tool.git
+cd Survey-Scripting-Tool
+# Copy your project files here
+git add .
+git commit -m "Add project files"
+git push origin main
+```
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for complete instructions, best practices, and recommended project structure.
+**Need detailed help?** See our comprehensive guides:
+- 📖 [UPLOAD_GUIDE.md](UPLOAD_GUIDE.md) - Multiple methods to upload your files (Git, GitHub Desktop, Web)
+- 🤝 [CONTRIBUTING.md](CONTRIBUTING.md) - Best practices and what to include/exclude
+- 📁 [PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md) - How to organize your project
 
 ## 📁 Recommended Project Structure
 
